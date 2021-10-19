@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+
+
+<!-- Bootstrap js & css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+  </head>
+  <body>
+  <h2 class="head"> This is a Basic Calculator </h2>
+
+  <form class="form" action="/index" method="post">
+
+    <input type="text" name="n1" value="" placeholder="Enter First Number" class="numb1">
+    <input type="text" name="n2" value="" placeholder="Enter Second Number" class="numb2">
+        <input type="text" name="symbol" value="" placeholder="Enter Operation" class="symbol">
+    <button type="submit" class="button btn btn-lg  btn-dark" name="button">Calculate</button>
+  </form>
+  <h4 class="head_2">Output of the following operation is :</h4>
+  <!-- <input type="text" name="output" value="" placeholder="Output" class="final_numb" > -->
+<h4 class="head_3"><%= result %> </h4>
+
+
+
+
+
+
+
+
+  </body>
+</html>

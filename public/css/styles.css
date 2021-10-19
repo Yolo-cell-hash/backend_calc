@@ -1,0 +1,66 @@
+body{
+  background-color: #EB92BE;
+}
+
+
+.head{
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.form{
+  padding-left: 40rem;
+}
+
+
+.numb1{
+  display: block;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+}
+
+.numb2{
+  display: block;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.symbol{
+  display: block;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.button{
+  text-align: center;
+}
+
+.head_2{
+text-align: center;
+  margin-top: 2rem;
+}
+
+.final_numb{
+margin-left: 40rem;
+  text-align:center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+
+.head_3{
+  text-align: center;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+}
